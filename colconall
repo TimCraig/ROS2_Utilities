@@ -1,0 +1,6 @@
+#! /bin/bash
+
+# Have colcon build all packages (must be run at the top level of workspace
+colcon build --symlink-install --parallel-workers 4
+
+exit

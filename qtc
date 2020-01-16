@@ -1,0 +1,6 @@
+#! /bin/bash
+
+# Run QtCreator from a terminal from the current directory
+~/Qt/Tools/QtCreator/bin/qtcreator &
+
+exit
