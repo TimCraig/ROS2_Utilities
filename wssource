@@ -1,6 +1,0 @@
-#! /bin/bash
-
-# Source the local workspace setup file
-source install/setup.bash
-
-exit
