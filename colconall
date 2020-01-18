@@ -1,6 +1,12 @@
 #! /bin/bash
 
+# Author Tim Craig  (TimCraig@Druai.com)  2020  
+# No warranties implied or otherwise.
+
 # Have colcon build all packages (must be run at the top level of workspace
+# I locate in the bin directory under my home directory
+
+# Build, Install, and use up to 4 worker threads
 colcon build --symlink-install --parallel-workers 4
 
 exit

@@ -1,6 +1,9 @@
 #! /bin/bash
+# Author Tim Craig  (TimCraig@Druai.com)  2020  
+# No warranties implied or otherwise.
 
-# Run QtCreator from a terminal from the current directory
+# Run QtCreator from a terminal from the current directory and detach
+# This makes sure QtCreator runs in a process with the ROS environment set
 ~/Qt/Tools/QtCreator/bin/qtcreator &
 
 exit
